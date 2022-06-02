@@ -1,7 +1,7 @@
 {
 	"chainId": "pisco-1",
 	"chainName": "Terra Testnet",
-	"rest": "https://pisco-lcd.terra.dev",
+	"rest": "https://terra-testnet-api.polkachu.com",
     "rpc": "https://terra-testnet-rpc.polkachu.com",
 	"bip44": {
 		"coinType": "505"
@@ -38,8 +38,8 @@
 		"coinGeckoId": "unknown"
 	},
 	"gasPriceStep": {
-		"low": 0.01,
-		"average": 0.025,
-		"high": 0.03
+		"low": 0.05,
+		"average": 0.1,
+		"high": 0.2
 	}
 }
