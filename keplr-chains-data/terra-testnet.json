@@ -1,0 +1,45 @@
+{
+	"chainId": "pisco-1",
+	"chainName": "Terra Testnet",
+	"rest": "https://pisco-lcd.terra.dev",
+    "rpc": "https://terra-testnet-rpc.polkachu.com",
+	"bip44": {
+		"coinType": "505"
+	},
+	"coinType": "505",
+	"bech32Config": {
+		"bech32PrefixAccAddr": "terra",
+		"bech32PrefixAccPub": "terrapub",
+		"bech32PrefixValAddr": "terravaloper",
+		"bech32PrefixValPub": "terravaloperpub",
+		"bech32PrefixConsAddr": "terravalcons",
+		"bech32PrefixConsPub": "terravalconspub"
+	},
+	"currencies": [
+		{
+			"coinDenom": "LUNA",
+			"coinMinimalDenom": "uluna",
+			"coinDecimals": "6",
+			"coinGeckoId": "unknown"
+		}
+	],
+	"feeCurrencies": [
+		{
+			"coinDenom": "LUNA",
+			"coinMinimalDenom": "uluna",
+			"coinDecimals": "6",
+			"coinGeckoId": "unknown"
+		}
+	],
+	"stakeCurrency": {
+		"coinDenom": "LUNA",
+		"coinMinimalDenom": "uluna",
+		"coinDecimals": "6",
+		"coinGeckoId": "unknown"
+	},
+	"gasPriceStep": {
+		"low": 0.01,
+		"average": 0.025,
+		"high": 0.03
+	}
+}
